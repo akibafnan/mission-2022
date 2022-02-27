@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 body p{
     color: dimgray;
@@ -43,13 +43,17 @@ section{
 }
 .heading h1{
     font-size: 50px;
+    font-family: 'Yeseva One', cursive;
 }
 .mission-part h1{
-    font-size: 40px;
     text-align: center;
+    font-weight:bolder;
+}
+h1{
+    font-size: 40px;
 }
 .mission-part h3{
-    font-size: 25px;
+    font-size: 20px;
 }
 .one-third-width{
     width: 30%;
@@ -73,6 +77,9 @@ section{
 .mission-part .flexible{
     margin-left: 20px;
 }
+h2{
+    font-size: 30px;
+}
 .develop-content{
     padding-left: 200px;
     
@@ -80,6 +87,7 @@ section{
 .develop-part img{
     margin-left: 100px;
     width: 90%;
+    padding-top: 80px;
 }
 .develop-part{
     background-image: url(images/shapes/shape-1.png);
@@ -93,12 +101,32 @@ section{
 .community-part img{
     padding-right: 200px;
     width: 90%;
+    padding-top: 80px;
 }
 .community-part{
     background-image: url(images/shapes/shape-1.png);
     background-repeat: no-repeat;
     background-size: 200px;
     background-position: bottom right;
+}
+.contact-part h1{
+    text-align: center;
+    font-size: 40px;
+}
+.half-width{
+    width: 50%;
+    margin: 10px 50px;
+    text-align: center;
+    background-color: rgba(250, 235, 215, 0.377);
+    padding: 50px 0;
+    border-radius: 10px;
+}
+.contact-title{
+    border-bottom: 5px solid #FF5959;
+    border-image-slice: 1;
+}
+.contact-part img{
+    width: 10%;
 }
 footer{
     text-align: center;
@@ -111,23 +139,5 @@ footer{
 }
 footer h3{
     font-size: 30px;
-}
-.contact-part h1{
-    text-align: center;
-    font-size: 40px;
-}
-.half-width{
-    width: 50%;
-    margin: 50px;
-    text-align: center;
-    background-color: rgba(250, 235, 215, 0.377);
-    padding: 50px 0;
-    border-radius: 10px;
-}
-.contact-title{
-    border-bottom: 5px solid #FF5959;
-    border-image-slice: 1;
-}
-.contact-part img{
-    width: 10%;
+    font-family: 'Lobster', cursive;
 }
