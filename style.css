@@ -1,5 +1,9 @@
 body{
     margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body p{
+    color: dimgray;
 }
 section{
     margin-bottom: 50px;
@@ -101,4 +105,29 @@ footer{
     background-color: black;
     color: white;
     padding: 20px;
+}
+.red-text{
+    color: #FF5959;
+}
+footer h3{
+    font-size: 30px;
+}
+.contact-part h1{
+    text-align: center;
+    font-size: 40px;
+}
+.half-width{
+    width: 50%;
+    margin: 50px;
+    text-align: center;
+    background-color: rgba(250, 235, 215, 0.377);
+    padding: 50px 0;
+    border-radius: 10px;
+}
+.contact-title{
+    border-bottom: 5px solid #FF5959;
+    border-image-slice: 1;
+}
+.contact-part img{
+    width: 10%;
 }
